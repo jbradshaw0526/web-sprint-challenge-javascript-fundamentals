@@ -26,13 +26,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
+MAP function to the element of the iterator and collects the result.
+If you want to apply function to each element of iterator then use MAP
+
+FILTER applies the function to each element of the iterator and collect those elements for which function returns true. For this function need to return boolean value.
+If you want to filter elements of iterator by some condition then use FILTER
+
+REDUCE applies rolling computation to sequential pair of elements in iterator. Initially it takes two elements from iterator in sequence, applies function, collect result, then take next element in sequence from iterator, applies function and repeat this untill list has single value.
+If you do some computation like addition, product on iterator's elements and want single value in output then use REDUCE.
+
 2. Explain the difference between a callback and a higher order function.
+ a higher order function takes a function as and argument and may return a function
+ a callback is a function passed into another function which is then invoked in the outer function to do something
 
 3. Explain what a closure is.
+a closure allows you access to an outer function scope from the inner function
 
 4. Describe the four principles of the 'this' keyword.
+implicit binding
+explicit binding
+new binding
+default binding or window binding
 
 5. Why do we need super() in an extended class?
+it is used to call the constructor of the parent class and to access the parent's properties and methods.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
