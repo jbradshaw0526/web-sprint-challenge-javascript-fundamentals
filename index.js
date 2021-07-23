@@ -17,7 +17,7 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+//internal is inside the myFunction as well as nestedFunction which makes them both in the same scope
 
 
 
